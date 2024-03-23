@@ -182,6 +182,13 @@
 
       let portfolioFilters = select('#portfolio-flters li', true);
 
+      portfolioIsotope.arrange({
+        filter: "ss"
+      });
+      portfolioIsotope.on('arrangeComplete', function() {
+        AOS.refresh()
+      });
+
       on('click', '#portfolio-flters li', function(e) {
         e.preventDefault();
         portfolioFilters.forEach(function(el) {
@@ -286,3 +293,12 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
   },
 });
+
+function downloadFunc(){
+  var anchor=document.createElement('a');
+  anchor.setAttribute('href','/assets/CV.pdf');
+  anchor.setAttribute('download','');
+  document.body.appendChild(anchor);
+  anchor.click();
+  anchor.parentNode.removeChild(anchor);
+}
