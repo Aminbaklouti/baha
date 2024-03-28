@@ -60,7 +60,7 @@
       <nav id="navbar" class="navbar nav-menu">
         <ul>
           <li>
-            <a href="/index.html" class="nav-link scrollto active"
+            <a href="/index.html" class="nav-link scrollto "
               ><i class="bx bx-home"></i> <span>Home</span></a
             >
           </li>
@@ -85,7 +85,7 @@
             >
           </li>
           <li>
-            <a href="/testimonials.html" class="nav-link scrollto"
+            <a href="/testimonials.html" class="nav-link scrollto active"
               ><i class="bx bx-text"></i> <span>Testimonials</span></a
             >
           </li>
@@ -103,37 +103,49 @@
 
 
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex flex-column justify-content-center">
-      <div class="container" data-aos="zoom-in" data-aos-delay="100" style="display: flex;flex-direction: column;align-items: center;padding-right: 86px">
-        <h1>Bahaeddine Abdelli</h1>
-        <p>
-          I'm
-          <span
-            class="typed"
-            data-typed-items="Business Student, Enthusiastic, Professional"
-          ></span>
-        </p>
-        <div class="social-links">
-          <a href="https://www.facebook.com/baha.abdelli.73" class="facebook"
-            ><i class="bx bxl-facebook"></i
-          ></a>
-          <a href="https://www.instagram.com/abdellibaha/" class="instagram"
-            ><i class="bx bxl-instagram"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/bahaeddine-abdelli-0a6141202/"
-            class="linkedin"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-        </div>
-      </div>
-      <video id="background-video" autoplay loop muted>
-        <source src="/assets/vid.mp4" type="video/mp4">
-      </video>
-    </section>
-    <!-- End Hero -->
+    <section id="testimonials" class="testimonials section-bg" style="background: #d1bca9;">
+      <div class="container" data-aos="fade-up">
 
+        <div class="section-title">
+          <h2>Testimonials</h2>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper swiperJustif" >
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/anis.jpg" class="testimonial-img" alt="">
+                <h3>Anis Chelbi</h3>
+                <h4>Professor</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Bahaeddine is a dedicated hardworking student and a motivated young man. He has excellent interpersonal skills and is an effective team member with clear leadership qualities. In class, he has proven to be a take-charge person who is able to successfully develop plans and implement them
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/wided.jpg" class="testimonial-img" alt="">
+                <h3>Wided Hemissi</h3>
+                <h4>Professor</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Throughout my interactions with Baha , he has consistently demonstrated exceptional academic prowess, dedication, and interest in the field of business. As a diligent and driven individual, baha has continually excelled in their coursework, consistently achieving outstanding grades and actively engaging in class discussions and group projects.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
 
 
 
@@ -191,18 +203,8 @@
         height: 100%;
         display: grid;
         align-items: center;
-      }
-      html{
-        height: 100%;
-      }
-      section{
-        max-height: 100%;
-        overflow-y: auto;
-      }
-      body{
-        height: 100%;
-        display: grid;
-        align-items: center;
+        background-color: #d1bca9;
+
       }
       html{
         height: 100%;
