@@ -275,7 +275,7 @@ h6 {
   width: 100%;
   height: 100vh;
   background-color: black;
-  background-image: url(../img/bahaT.png), url(../img/bahaTI.png);
+  background-image: url(../img/bahaPDPP.png), url(../img/bahaPDPPI.png);
   position: relative;
   background-repeat: no-repeat;
   background-position-x: calc(100% + 95px), calc(0% + -8px);
@@ -359,9 +359,15 @@ h6 {
   }
 }
 
-@media (max-width: 1730px) {
+@media (max-width: 1500px) {
   #hero {
     background-image: none !important;
+  }
+}
+
+@media (max-width: 1730px) {
+  #hero {
+    /* background-image: none !important; */
   }
   #hero .container{
     padding-right: 12px !important;
