@@ -359,7 +359,7 @@ h6 {
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 600px) {
   #hero {
     background-image: none !important;
   }
