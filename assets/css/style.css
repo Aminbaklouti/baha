@@ -278,7 +278,7 @@ h6 {
   background-image: url(../img/bahaT.png), url(../img/bahaTI.png);
   position: relative;
   background-repeat: no-repeat;
-  background-position-x: 1509px, -97px;
+  background-position-x: calc(100% + 95px), calc(0% + -8px);
   background-position-y: 143px;
   background-size: 651px;
 }
@@ -351,6 +351,22 @@ h6 {
     font-size: 20px;
     line-height: 24px;
   }
+  .project.onlyPC{
+    display: none !important;
+  }
+  .project.onlyPH{
+    display: flex !important;
+  }
+}
+
+@media (max-width: 1730px) {
+  #hero {
+    background-image: none !important;
+  }
+  #hero .container{
+    padding-right: 12px !important;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -1221,5 +1237,11 @@ button[type=submit]:hover {
 
 video{
     width: 460px;
-    margin-left: 650px;
+    /* margin-left: 650px; */
+}
+.project{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
