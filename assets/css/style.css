@@ -1241,8 +1241,8 @@ button[type=submit]:hover {
   content: none !important;
 }
 
-video{
-    width: 460px;
+#background-video{
+    width: 370px;
     /* margin-left: 650px; */
 }
 .project{
